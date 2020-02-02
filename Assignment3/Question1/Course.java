@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 /**
  * @author Lakshya
@@ -45,8 +45,6 @@ public class Course {
 		{
 			return true;
 		}
-		
-		
 		else {
 			return false;
 		}
