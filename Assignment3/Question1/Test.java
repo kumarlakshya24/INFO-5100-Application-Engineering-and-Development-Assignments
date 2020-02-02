@@ -13,7 +13,7 @@ public class Test{
 		course.registerStudent(s2);
 		course.registerStudent(s3);
 		System.out.println("Names of student registered for the course: "+course.getCourseName());
-	    course.getStudents();
+	        course.getStudents();
 		}
 	}
 
