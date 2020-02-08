@@ -8,8 +8,9 @@ public DessertItem() {
 
 public DessertItem(java.lang.String name) {
 	int n = name.length();
-	 if (n <= DessertShoppe.maxsizeofItem)
+	 if (n <= DessertShoppe.maxsizeofItem) {
          this.name = name;
+	 }
  }
 
 
