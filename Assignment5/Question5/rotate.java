@@ -28,7 +28,7 @@ public class rotate {
 	private void swap(int[][] m) {
 		int len = m.length;
 		for(int i = 0;  i < len; i++)
-		{
+	{
             int l = 0;
             int r = m[i].length - 1;
             while(l < r)
@@ -39,8 +39,8 @@ public class rotate {
                 l++;
                 r--;
             }
-		}
-		
 	}
+		
+    }
 	
 }
