@@ -6,7 +6,7 @@ package Assignment5;
  */
 public class nonRepeatingChar {
 	public static int nonRC(String str) {
-		int len = str.length();
+	int len = str.length();
         LinkedHashMap<Character,Integer> nonrcmap1 = new LinkedHashMap<Character,Integer>();
         for(int i = 0; i < len; i++)
         {
