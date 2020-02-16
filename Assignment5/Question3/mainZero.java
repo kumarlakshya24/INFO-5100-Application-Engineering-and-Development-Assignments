@@ -13,14 +13,14 @@ public class mainZero {
 		int a[] = new int[len];
 		System.out.println("Enter the elements:");
 		for(int i = 0; i < len; i++)
-        {
-            a[i] = sc.nextInt();
-        }
+        	{
+           	    a[i] = sc.nextInt();
+       		}
 		sc.close();
 		pushZeroesBack p = new pushZeroesBack();
 		p.zeroatEnd(a); 
         }
-	}
+}
 		
 	
 
