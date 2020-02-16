@@ -8,7 +8,8 @@ public class longestPalindrome {
 	        int startPosition = 0;
 	        int endPosition = 0;
 	        int len = s.length();
-	        for (int i = 0; i < len; i++) {
+	        for (int i = 0; i < len; i++) 
+		{
 	            char c = s.charAt(i);
 	            int left = i;
 	            int right = i;
