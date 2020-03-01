@@ -1,8 +1,6 @@
 package Assignment6;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
 /**
  * @author Lakshya
  *
@@ -10,7 +8,7 @@ import java.util.Scanner;
 public class closesttoTargetIndexMainPartD{
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception{
-    System.out.println("Enter the number of elements");
+    	System.out.println("Enter the number of elements");
 	Scanner sc = new Scanner(System.in);
 	int n = sc.nextInt();
 	if(n > 0) 
@@ -18,9 +16,9 @@ public class closesttoTargetIndexMainPartD{
 		int[] A = new int[n];
 		System.out.println("Enter array elements");
 		for(int j = 0; j < A.length; j++) 
-			{
-				A[j] = sc.nextInt();
-			}
+		{
+			A[j] = sc.nextInt();
+		}
 		Arrays.sort(A);
 		closestToTarget c = new closestToTarget();
 		System.out.println("Enter the target:");
