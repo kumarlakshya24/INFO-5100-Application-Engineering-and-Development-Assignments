@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class closesttoTargetIndexMainPartD{
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception{
-    System.out.println("Enter the number of elements");
+   	System.out.println("Enter the number of elements");
 	Scanner sc = new Scanner(System.in);
 	int n = sc.nextInt();
 	int[] A = new int[n];
